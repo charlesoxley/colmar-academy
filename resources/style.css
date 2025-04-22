@@ -1,0 +1,241 @@
+html {
+    font-size: 16px;
+    font-family: opensans, sans-serif;
+}
+
+
+/*********** Navigation ***********/
+
+header {
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+header .content {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 1.5rem;
+}
+
+header .content a {
+    text-decoration: none;
+  }
+
+  header .content img{
+    vertical-align: middle; 
+    /** margin: auto;
+    display: inline-block; **/
+  }
+
+header .logotextgrey {
+    color: #263238;
+}
+
+header .logotextlightgrey {
+    color: #607d8b;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 1rem;
+  }
+
+nav a {
+   /** vertical-align: bottom; **/
+    line-height: 1.6;
+    color: #000a12;
+}
+
+a:hover {
+    color: #6a6f8c;
+  }
+
+  /************** general styles ********************/
+
+.mobile {
+    display: none;
+  }
+  
+  .mobile-image{
+    display: none;
+  }
+  
+  .desktop-image{
+    display: block;
+  }
+  
+  .grey-background {
+    background-color: #eceff1;
+  }
+  .grey-background-desktop {
+    background-color: none;
+  }
+  .grey-background-desktop:hover {
+    background-color: #eceff1;
+  }
+  
+  hr {
+    border-top: 4px #535353;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  .right-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    color: #0277bd;
+  }
+  
+  p {
+    font-size: medium;
+    color: #6d6d6d;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  h4 {
+    color: #455a64;
+    font-weight: 600;
+    font-size: large;
+  }
+  
+
+  /*********** Banner ***********/
+
+  .startbutton {
+    border: none;
+    background-color: #455a64;
+    align-items: center;
+    width: 80%;
+    height: 42px;
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .startbutton:hover {
+    background-color: #78909c;
+  }
+
+  #feature-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 32px;
+  }
+
+  .right-side-featured {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learn {
+    font-size: 2rem;
+    color: #373737;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+
+  .learn-more {
+    font-weight: normal;
+    font-size: 1.125rem;
+  }
+
+  .information-banner { 
+    max-width:100%;
+    max-height:100%;
+    }
+
+    /*************  Middle section ****************/
+
+    #middle-section {
+        margin-top: 32px;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      #middle-section h2 {
+        margin-top: 32px;
+        margin-bottom: 24px;
+        color: #455a64; 
+      }
+
+      .quote {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 0.9375rem;
+      }
+
+      .info-panes {
+        display: flex;
+      }
+
+      .info-panes:hover {
+        background-color: #eceff1;
+      }
+
+      .info-panes-text-1 {
+        display: flex;
+        width: 65%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        margin-top: 0;
+        }
+
+      .info-panes-text {
+        display: flex;
+        width: 65%;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+      }
+
+      .info-panes .image{
+        width: 35%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 16px;
+      }
+
+      .info-image {
+        max-width:100%;
+        max-height:100%;
+        }
+
+        .info-panes h4 {
+            color: #455a64;
+            font-weight: 600;
+            font-size: large;
+            margin-bottom: 0;
+            margin-top: 0;
+            }
